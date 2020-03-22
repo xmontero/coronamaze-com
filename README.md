@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+# coronamaze.com
 
-You can use the [editor on GitHub](https://github.com/xmontero/coronamaze-com/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is the public pages site for coronamaze.com
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+coronamaze.com is aimed to be a website to help the kids arond the world with the confinement due to the coronavirus, proposing all the kids a new challenge every day to help them keep their mind awake in a happy way during those hard times.
 
-### Markdown
+I'm still unsure if I'll edit the HTML by hand or I'll create some kind of automatic builder. So please do not fork this yet and do not do PRs until I clarify the workflow.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/xmontero/coronamaze-com/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The reason for publishing without having this for clear is to minimize the time to get published so the kids around the world can start to have fun without more delay in this new coronavirus epoch.
