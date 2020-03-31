@@ -1,2 +1,4 @@
 # Prevents files from Jetbrains tools to be shown as pending to be committed.
 /.idea
+/.jekyll-cache
+/_site
