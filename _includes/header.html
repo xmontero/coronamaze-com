@@ -1,0 +1,23 @@
+<header>
+    <div class="headerArea container">
+        <h1 class="title">{{ page.title }}</h1>
+        <ul class="languages">
+            <li>Català</li>
+            <li>Castellà</li>
+            <li>Anglès</li>
+            <li>Italià</li>
+        </ul>
+        <div class="publishingInfo">
+            <span class="d-inline d-md-none">N: </span><span class="d-none d-md-inline">Número: </span>{{ page.issue.number }}
+            <span class="glue"></span>
+            <span class="d-none d-md-inline">Data: </span>{{ page.issue.date }}
+            <span class="d-none d-sm-inline">
+                <span class="glue"></span>
+                <span class="d-none d-md-inline">Llengua: </span>{{ page.issue.language }}
+            </span>
+        </div>
+    </div>
+    <div class="shapeDivider">
+        {% include headerSvg.html %}
+    </div>
+</header>
