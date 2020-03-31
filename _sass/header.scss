@@ -1,0 +1,105 @@
+@import "colors";
+
+header
+{
+    position: relative;
+    background-image: $mainBackgroundGradient;
+    color: white;
+
+    .headerArea
+    {
+        position: relative;
+        height: 100px;
+
+        .title
+        {
+            position: absolute;
+            left: 20px;
+            top: 20px;
+
+            text-shadow: rgba(0,0,0,0.5) 1px 5px 10px;
+            font-family: 'Nova Oval', cursive;
+        }
+
+        .languages
+        {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+
+            background-color: #a2118480;
+            box-shadow: 1px 5px 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            list-style-type: none;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .publishingInfo
+        {
+            position: absolute;
+            left: 20px;
+            bottom: 0;
+
+            color: $lightColor;
+
+            .glue
+            {
+                display: inline-block;
+                width: 30px;
+                position: relative;
+                height: 10px;
+
+                &::before
+                {
+                    content: "\2605";
+                    color: white;
+                    position: relative;
+                    left: 8px;
+                }
+            }
+        }
+    }
+
+    .shapeDivider
+    {
+        height: 100px;
+        display: block;
+        overflow: hidden;
+
+        svg
+        {
+            height: 100%;
+            width: 100%;
+
+            .area
+            {
+                stroke-width: 0;
+            }
+
+            .areaA
+            {
+                fill: #fffff0;
+                fill-opacity: 0.62;
+            }
+
+            .areaB
+            {
+                fill: #fff0ff;
+                fill-opacity: 0.33;
+            }
+
+            .areaC
+            {
+                fill: #f0ffff;
+                fill-opacity: 0.3;
+            }
+
+            .areaOverlap
+            {
+                fill: $backgroundColor;
+                fill-opacity: 1;
+            }
+        }
+    }
+}

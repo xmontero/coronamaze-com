@@ -1,0 +1,12 @@
+// Colors
+$backgroundColor: #fff4ff;
+$main1: #a21184;
+$main2: #630a6c;
+$lightColor: #dfabd4;
+$contrast1: rgb( 255, 148, 0 );
+$contrast2: rgb( 239, 16, 123 );
+
+// Gradients
+$mainBackgroundGradient: linear-gradient( 100deg, $main1, $main2 );
+$buttonBackground: linear-gradient( 100deg, $contrast2, $contrast1 );
+$greenGradient: linear-gradient( 100deg, #e8f2a5, #8eec59 );
