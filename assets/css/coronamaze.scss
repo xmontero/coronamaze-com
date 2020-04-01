@@ -68,7 +68,7 @@
         position: relative;
         box-shadow: 5px 10px 20px rgba( 25, 74, 36, 0.2 );
 
-        padding: 100px 40px 80px;
+        padding: 60px 40px 40px;
 
         @media ( min-width: 544px )
         {
@@ -94,12 +94,13 @@
             .cm_caption
             {
                 font-size: 1.8rem;
+                margin-bottom: 1.2rem;
 
                 @media ( min-width: 544px )
                 {
                     font-size: 2rem;
+                    margin-bottom: 2rem;
                 }
-                margin-bottom: 2rem;
             }
 
             .cm_age-options
@@ -115,7 +116,7 @@
 
                 .cm_age-option
                 {
-                    margin-bottom: 40px;
+                    margin-bottom: 20px;
 
                     .cm_icon
                     {

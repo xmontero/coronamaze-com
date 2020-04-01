@@ -1,61 +1,41 @@
 ---
+layout: "frontpage"
 title: CoronaMaze
 issue:
     number: 1
     date: 1 d'abril de 2020
     language: Català
-messageForKids: |
-    <p>Hola!</p>
-    <p>Em dic Xavi, i he creat aquesta web <strong>perquè t’ho passis bé</strong> cada dia que has d’estar a casa confinat.</p>
-    <p>No sé si ho aconseguiré, però m’agradaria proposar-te cada dia <strong>una endevinalla entretinguda</strong> amb la que passar una estona llarga de forma divertida. Si entre tots ens ajudem, el món serà millor!</p>
-    <p>Jo tinc tres fills que estan com tu: no poden anar a classe però saben i entenen que això no són unes vacances. Alguns coles us han posat més deures, alguns altres menys, però <strong>una mica de jocs per estar entretinguts</strong> mitja horeta al dia sempre va bé!</p>
-    <p>Estic segur que tens amics o germans a qui explicar-ho! Et vull demanar, si us plau, que <strong>comparteixis aquest divertiment i que ho expliquis</strong> a tothom que coneguis! Només amb els teus ànims, nosaltres reunirem la força de crear cada dia una nova endevinalla per a tu!</p>
-    <p>Gràcies!</p>
+forTheKids:
+    title: Per als nens
+    content: |
+        <p>Hola!</p>
+        <p>Em dic Xavi, i he creat aquesta web <strong>perquè t’ho passis bé</strong> cada dia que has d’estar a casa confinat.</p>
+        <p>No sé si ho aconseguiré, però m’agradaria proposar-te cada dia <strong>una endevinalla entretinguda</strong> amb la que passar una estona llarga de forma divertida. Si entre tots ens ajudem, el món serà millor!</p>
+        <p>Jo tinc tres fills que estan com tu: no poden anar a classe però saben i entenen que això no són unes vacances. Alguns coles us han posat més deures, alguns altres menys, però <strong>una mica de jocs per estar entretinguts</strong> mitja horeta al dia sempre va bé!</p>
+        <p>Estic segur que tens amics o germans a qui explicar-ho! Et vull demanar, si us plau, que <strong>comparteixis aquest divertiment i que ho expliquis</strong> a tothom que coneguis! Només amb els teus ànims, nosaltres reunirem la força de crear cada dia una nova endevinalla per a tu!</p>
+        <p>Gràcies!</p>
+forTheParents:
+    title: Per als pares
+    button:
+        link: http://www.google.es/
+        caption: Feu click aquí
+puzzles:
+    title: Puzzles
+    subtitle: Quants anys tens?
+    options:
+        -
+            link: http://www.google.es/
+            caption: de 6 a 8
+        -
+            link: http://www.google.es/
+            caption: de 9 a 11
+        -
+            link: http://www.google.es/
+            caption: de 12 a 14
+        -
+            link: http://www.google.es/
+            caption: de 15 a 18
+        -
+            link: http://www.google.es/
+            caption: 18 o més
 ---
-<div class="container">
-    <section id="cm_for-the-kids">
-        <h2 class="cm_title">Per als nens</h2>
-        <div class="cm_content">{{ page.messageForKids }}</div>
-    </section>
-    <section id="cm_for-the-parents" class="row justify-content-center">
-        <div class="col-12 col-md-6 col-xl-4">
-            <div class="cm_content">
-                <h2 class="cm_title">Per als pares</h2>
-                <div class="text-center">
-                    <a class="btn btn-primary" href="#">Feu click aquí&nbsp;&nbsp;&nbsp;&#x2BC8;</a>
-                </div>
-            </div>
-        </div>
-    </section>
-</div>
-<div id="cm_puzzles-wrapper">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-10 col-lg-7 col-xl-6">
-                <section id="cm_puzzles" class="debug">
-                    <h2 class="cm_title">Puzzles</h2>
-                    <div class="cm_content">
-                        <div class="cm_caption">Quants anys tens?</div>
-                        <div class="cm_age-options">
-                            <div class="cm_age-option">
-                                <a href="#" class="btn btn-primary cm_button">de 6 a 8&nbsp;&nbsp;&nbsp;&#x2BC8;</a>
-                            </div>
-                            <div class="cm_age-option">
-                                <a href="#" class="btn btn-primary cm_button">de 9 a 11&nbsp;&nbsp;&nbsp;&#x2BC8;</a>
-                            </div>
-                            <div class="cm_age-option">
-                                <a href="#" class="btn btn-primary cm_button">de 12 a 14&nbsp;&nbsp;&nbsp;&#x2BC8;</a>
-                            </div>
-                            <div class="cm_age-option">
-                                <a href="#" class="btn btn-primary cm_button">de 15 a 18&nbsp;&nbsp;&nbsp;&#x2BC8;</a>
-                            </div>
-                            <div class="cm_age-option">
-                                <a href="#" class="btn btn-primary cm_button">18 o més&nbsp;&nbsp;&nbsp;&#x2BC8;</a>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </div>
-        </div>
-    </div>
-</div>
