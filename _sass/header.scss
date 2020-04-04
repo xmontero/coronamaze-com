@@ -6,12 +6,12 @@ header
     background-image: $mainBackgroundGradient;
     color: white;
 
-    .headerArea
+    .cm_headerArea
     {
         position: relative;
         height: 100px;
 
-        .title
+        .cm_title
         {
             position: absolute;
             left: 20px;
@@ -19,9 +19,14 @@ header
 
             text-shadow: rgba(0,0,0,0.5) 1px 5px 10px;
             font-family: 'Nova Oval', cursive;
+
+            a
+            {
+                color: white;
+            }
         }
 
-        .languages
+        .cm_languages
         {
             position: absolute;
             top: 5px;
@@ -40,7 +45,7 @@ header
             }
         }
 
-        .publishingInfo
+        .cm_publishingInfo
         {
             position: absolute;
             left: 20px;
@@ -48,7 +53,7 @@ header
 
             color: $lightColor;
 
-            .glue
+            .cm_glue
             {
                 display: inline-block;
                 width: 30px;
@@ -66,7 +71,7 @@ header
         }
     }
 
-    .shapeDivider
+    .cm_shapeDivider
     {
         height: 100px;
         display: block;

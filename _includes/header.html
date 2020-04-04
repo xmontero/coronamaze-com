@@ -1,23 +1,27 @@
 <header>
-    <div class="headerArea container">
-        <h1 class="title">{{ page.title }}</h1>
-        <ul class="languages">
-            <li><a href="/">Català</a></li>
-            <li><a href="/2020/1/es/">Español</a></li>
-            <li><a href="/2020/1/en/">English</a></li>
-            <li><a href="/2020/1/it/">Italiano</a></li>
+    <div class="cm_headerArea container">
+        <h1 class="cm_title"><a href="/">CoronaMaze</a></h1>
+        <ul class="cm_languages">
+            <li><a href="/ca/">Català</a></li>
+<!--            <li><a href="/de/">Deutsch</a></li>-->
+            <li><a href="/en/">English</a></li>
+            <li><a href="/es/">Español</a></li>
+<!--            <li><a href="/fr/">Français</a></li>-->
+            <li><a href="/it/">Italiano</a></li>
+            <li><a href="/pt/">Português</a></li>
+            <li><a href="/seekingTranslators.html">[ more ]</a></li>
         </ul>
-        <div class="publishingInfo">
+        <div class="cm_publishingInfo">
             <span class="d-inline d-md-none">N: </span><span class="d-none d-md-inline">Número: </span>{{ page.issue.number }}
-            <span class="glue"></span>
+            <span class="cm_glue"></span>
             <span class="d-none d-md-inline">Data: </span>{{ page.issue.date }}
             <span class="d-none d-sm-inline">
-                <span class="glue"></span>
+                <span class="cm_glue"></span>
                 <span class="d-none d-md-inline">Llengua: </span>{{ page.issue.language }}
             </span>
         </div>
     </div>
-    <div class="shapeDivider">
+    <div class="cm_shapeDivider">
         {% include headerSvg.html %}
     </div>
 </header>
