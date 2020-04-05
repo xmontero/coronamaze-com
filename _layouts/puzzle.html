@@ -1,0 +1,65 @@
+---
+layout: base
+---
+<div class="container">
+
+    <section id="cm_intro">
+        <div class="cm_title">{{ page.issue.number }}. {{ page.puzzle.title }}</div>
+        <div class="cm_difficulty">Difficulty: {{ page.titles.level }}</div>
+    </section>
+
+    <section id="cm_puzzle">
+        <div class="cm_puzzleSection cm_history">
+            <div class="cm_title">
+                <h2>{{ page.titles.history }}</h2>
+            </div>
+            <div class="cm_text">{{ page.puzzle.history.text }}</div>
+            <div class="cm_relations">{{ page.puzzle.history.relations }}</div>
+            <div class="cm_questions">{{ page.puzzle.history.questions }}</div>
+        </div>
+        <div class="cm_puzzleSection cm_keywords">
+            <div class="cm_title">
+                <h2>{{ page.titles.elements }}</h2>
+            </div>
+            <ul>
+                {% for element in page.puzzle.elements %}
+                    <li><b>{{ element.name }}:</b> {{ element.items }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="cm_puzzleSection cm_clues">
+            <div class="cm_title">
+                <h2>{{ page.titles.clues }}</h2>
+            </div>
+            <ol class="cm_cluesList">
+                {% for clue in page.puzzle.clues %}
+                    <li>{{ clue }}</li>
+                {% endfor %}
+            </ol>
+        </div>
+    </section>
+
+</div>
+
+<section id="cm_helper-wrapper">
+    <div class="container">
+        <div class="cm_title">Utilitza aquesta taula per ajudar-te a resoldre el puzzle:</div>
+        <table class="table cm_helper-table">
+            <tr>
+                {% for element in page.puzzle.elements %}
+                    <th>{{ element.name }}</th>
+                {% endfor %}
+            </tr>
+            {% assign numberOfBlankColumns = page.puzzle.elements | size | minus: 2 %}
+            {% assign keys = page.puzzle.elements[ 0 ].helper %}
+            {% for key in keys %}
+                <tr>
+                    <td>{{ key }}</td>
+                    {% for i in (0..numberOfBlankColumns) %}
+                        <td></td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
+</section>

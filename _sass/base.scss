@@ -1,0 +1,37 @@
+@import "colors";
+@import "header";
+@import "fonts";
+@import "footer";
+
+body
+{
+    font-family: Kurale;
+    font-size: 19.5px;
+    background-color: $backgroundColor;
+}
+
+h2
+{
+    font-family: 'Fredoka One', cursive;
+}
+
+strong
+{
+    color: $contrast2;
+    font-weight: bold;
+}
+
+section
+{
+    margin-bottom: 100px;
+
+    &.debug
+    {
+        background-color: #ff80ff;
+    }
+}
+
+.cm_debug
+{
+    box-shadow: 0px 0px 0px 1px red;
+}

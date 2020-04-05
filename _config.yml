@@ -1,1 +1,11 @@
-theme: jekyll-theme-minimal
+defaults:
+    -
+        scope:
+            path: ""
+        values:
+            layout: "base"
+
+plugins:
+    - jekyll-feed
+    - jekyll-sitemap
+    - jekyll-seo-tag

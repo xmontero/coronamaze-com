@@ -1,0 +1,21 @@
+---
+---
+@import "base";
+
+#cm_for-the-parents
+{
+    .cm_content
+    {
+        background-color: #fff;
+        margin-left: 0px;
+        box-shadow: 5px 10px 20px rgba(200, 40, 100, 0.2);
+        padding: 50px;
+        border-radius: 20px;
+
+        p
+        {
+            margin-bottom: 30px;
+            color: $main2;
+        }
+    }
+}
