@@ -28,3 +28,21 @@ es:
         2:
             title: Jugando a la Nintendo Switch
             note: "Fecha prevista de publicación de la solución:<br/>11 de abril"
+ca:
+    translations:
+        puzzles:
+            title: Puzzles
+            subtitle: Quants anys tens?
+        levelNames:
+            1: de 6 a 8
+            2: de 9 a 11
+            3: de 12 a 14
+            4: de 15 a 17
+            5: 18 o més
+    publishedPuzzles:
+        1:
+            title: Decorant material escolar
+            note: "Data prevista de publicació de la solució:<br/>9 d'abril"
+        2:
+            title: Jugant a la Nintendo Switch
+            note: "Data prevista de publicació de la solució:<br/>11 de abril"
