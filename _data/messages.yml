@@ -1,4 +1,4 @@
-ca: |
+ca_disabled: |
     <p>
         Mil gràcies a tots per l'èxit de la pàgina.
         <b>Ja tinc creat</b> el puzzle #2 i el penjaré molt aviat!
@@ -11,7 +11,7 @@ ca: |
         Continueu difonent a grups de pares i mestres, plis!!
     </p>
 
-es: |
+es_disabled: |
     <p>
         Mil gracias a todos por el éxito de la página.
         <b>Ya tengo creado</b> el puzzle #2 y lo colgaré muy pronto!
