@@ -1,0 +1,64 @@
+---
+layout: base
+---
+{% assign translations = site.data.puzzleIndex[ page.language ].translations %}
+{% if site.data.messages[ page.language ] != nil %}
+    <div class="cm_topHeaderMessagWrapper">
+        <div class="container">{{ site.data.messages[ page.language ] }}</div>
+    </div>
+{% endif %}
+<div class="container">
+    <section id="cm_for-the-kids">
+        <h2 class="cm_title">{{ page.forTheKids.title }}</h2>
+        <div class="cm_content">{{ page.forTheKids.content }}</div>
+    </section>
+    <section id="cm_for-the-parents" class="row justify-content-center">
+        <div class="col-12 col-md-6 col-xl-4">
+            <div class="cm_content">
+                <h2 class="cm_title">{{ page.forTheParents.title }}</h2>
+                <div class="text-center">
+                    <a class="btn btn-primary" href="{{ page.forTheParents.button.link }}">{{ page.forTheParents.button.caption }}&nbsp;&nbsp;&nbsp;&#x25b6;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+{% assign puzzles = site.data.puzzleIndex[ page.language ].publishedPuzzles %}
+{% for puzzleKeyValue in puzzles reversed %}
+    {% assign puzzleKey = puzzleKeyValue[ 0 ] %}
+    {% assign puzzle = puzzleKeyValue[ 1 ] %}
+    {% assign levelLinks = site.data.puzzleIndex.global.levelLinks %}
+    {% assign localizedLevelLinks = translations.levelNames %}
+    <div id="cm_puzzles-wrapper">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-7 col-xl-6">
+                    <section id="cm_puzzles" class="debug">
+                        <h2 class="cm_title">{{ translations.puzzles.title }}</h2>
+                        <div class="cm_content">
+                            <div class="cm_caption">{{ puzzleKey }}. - {{ puzzle.title }}</div>
+                            <div>{{ puzzle.note }}</div>
+                            <div class="cm_caption">{{ translations.puzzles.subtitle }}</div>
+                            <div class="cm_age-options">
+                                {% for option in page.puzzles.options %}
+                                    <div class="cm_age-option">
+                                        <a href="{{ option.link }}" class="btn btn-primary cm_button">{{ option.caption }}&nbsp;&nbsp;&nbsp;&#x25b6;</a>
+                                    </div>
+                                {% endfor %}
+                            </div>
+                            <div class="cm_age-options">
+                                {% for option in levelLinks %}
+                                    {% assign optionKey = option[ 0 ] %}
+                                    {% assign optionValue = option[ 1 ] %}
+                                    <div class="cm_age-option">
+                                        <a href="/{{ page.language }}/1/{{ puzzleKey }}/{{ optionValue.page }}" class="btn btn-primary cm_button">{{ localizedLevelLinks[ optionKey ]  }}&nbsp;&nbsp;&nbsp;&#x25b6;</a>
+                                    </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}

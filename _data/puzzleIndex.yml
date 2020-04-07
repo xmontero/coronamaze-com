@@ -1,0 +1,48 @@
+global:
+    levelLinks:
+        1:
+            page: level-6-8.html
+        2:
+            page: level-9-11.html
+        3:
+            page: level-12-14.html
+        4:
+            page: level-15-17.html
+        5:
+            page: level-18.html
+es:
+    translations:
+        puzzles:
+            title: Puzzles
+            subtitle: ¿Cuántos años tienes?
+        levelNames:
+            1: de 6 a 8
+            2: de 9 a 11
+            3: de 12 a 14
+            4: de 15 a 17
+            5: 18 o más
+    publishedPuzzles:
+        1:
+            title: Decorando material escolar
+            note: "Fecha prevista de publicación de la solución:<br/>9 de abril"
+        2:
+            title: Jugando a la Nintendo Switch
+            note: "Fecha prevista de publicación de la solución:<br/>11 de abril"
+ca:
+    translations:
+        puzzles:
+            title: Puzzles
+            subtitle: Quants anys tens?
+        levelNames:
+            1: de 6 a 8
+            2: de 9 a 11
+            3: de 12 a 14
+            4: de 15 a 17
+            5: 18 o més
+    publishedPuzzles:
+        1:
+            title: Decorant material escolar
+            note: "Data prevista de publicació de la solució:<br/>9 d'abril"
+        2:
+            title: Jugant a la Nintendo Switch
+            note: "Data prevista de publicació de la solució:<br/>11 de abril"
