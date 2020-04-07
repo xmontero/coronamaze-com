@@ -1,6 +1,11 @@
 ---
 layout: base
 ---
+{% if site.data.messages[ page.language ] != nil %}
+    <div class="cm_topHeaderMessagWrapper">
+        <div class="container">{{ site.data.messages[ page.language ] }}</div>
+    </div>
+{% endif %}
 <div class="container">
     <section id="cm_for-the-kids">
         <h2 class="cm_title">{{ page.forTheKids.title }}</h2>
