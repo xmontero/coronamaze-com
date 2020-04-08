@@ -10,6 +10,7 @@ global:
             page: level-15-17.html
         5:
             page: level-18.html
+
 es:
     translations:
         puzzles:
@@ -28,6 +29,7 @@ es:
         2:
             title: Jugando a la Nintendo Switch
             note: "Fecha prevista de publicación de la solución:<br/>11 de abril"
+
 ca:
     translations:
         puzzles:
@@ -46,3 +48,21 @@ ca:
         2:
             title: Jugant a la Nintendo Switch
             note: "Data prevista de publicació de la solució:<br/>11 de abril"
+en:
+    translations:
+        puzzles:
+            title: Puzzles
+            subtitle: How old are you?
+        levelNames:
+            1: 6-8 years
+            2: 9-11 years
+            3: 12-14 years
+            4: 15-17 years
+            5: 18 or older
+    publishedPuzzles:
+        1:
+            title: Decorating school supplies
+            note: "Forecasted solution publish date: <br/>9 april"
+        2:
+            title: Playing the Nintendo Switch
+            note: "Forecasted solution publish date:<br/>11 april"
