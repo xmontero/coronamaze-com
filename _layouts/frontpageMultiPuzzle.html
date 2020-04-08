@@ -38,6 +38,13 @@ layout: base
                         <div class="cm_content">
                             <div class="cm_caption">{{ puzzleKey }}. - {{ puzzle.title }}</div>
                             <div>{{ puzzle.note }}</div>
+                            <div>
+                                <div>
+                                    {{ site.data.socialNetworkTranslations[ page.language ].followMeCaption }}
+                                </div>
+                                {% include socialNetworks/twitterFollowMe.html %}
+                                {% include socialNetworks/twitterShare.html %}
+                            </div>
                             <div class="cm_caption">{{ translations.puzzles.subtitle }}</div>
                             <div class="cm_age-options">
                                 {% for option in page.puzzles.options %}
