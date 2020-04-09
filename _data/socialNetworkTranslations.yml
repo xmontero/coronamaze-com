@@ -1,4 +1,5 @@
 ca:
+    shareCaption: "T'ha agradat? Comparteix!"
     shareOnTwitter: "M'encanta aquesta web de puzzles! Per als nens del món confinats pel coronavirus!"
     followMeCaption: "Per estar al dia de nous puzles o publicació de solucions, segueix-me:"
     followMeOnTwitter: Segueix-me a twitter
@@ -11,6 +12,7 @@ en:
     followMeCaption: "To stay updated on new puzzles or solution publishing, follow me:"
     followMeOnTwitter: Follow me on twitter
 es:
+    shareCaption: "¿Te ha gustado? ¡Comparte!"
     shareOnTwitter: "¡Me encanta esta web de puzzles! ¡Para los niños del mundo confinados por el coronavirus!"
     followMeCaption: "Para estar al día de nuevos puzles o publicación de soluciones, sígueme:"
     followMeOnTwitter: Sígueme en twitter
