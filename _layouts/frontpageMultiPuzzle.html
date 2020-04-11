@@ -40,7 +40,7 @@ layout: base
                             <div>{{ puzzle.note }}</div>
                             {% if puzzle.showSolutions %}
                                 <div>
-                                    <a href="/{{ page.language }}/1/1/solutions.html">{{ site.data.translations[ page.language ].showTheSolutions }}</a>
+                                    <a href="/{{ page.language }}/1/{{ puzzleKey }}/solutions.html">{{ site.data.translations[ page.language ].showTheSolutions }}</a>
                                     <p>
                                         {{ site.data.socialNetworkTranslations[ page.language ].shareCaption }}
                                         {% include socialNetworks/twitterShare.html %}
