@@ -4,7 +4,11 @@ footer
 {
     background-image: $mainBackgroundGradient;
     color: $lightColor;
-    height: 100px;
     padding-top: 50px;
     border-top: 5px solid #ce77bc;
+
+    a
+    {
+        color: $contrast1;
+    }
 }
