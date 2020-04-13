@@ -29,6 +29,9 @@ ca:
         2:
             title: Jugant a la Nintendo Switch
             showSolutions: true
+        3:
+            title: Fent màgia abans de la quarentena
+            showSolutions: false
 
 es:
     translations:
