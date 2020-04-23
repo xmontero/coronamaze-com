@@ -1,0 +1,52 @@
+index:
+    title: El Guifré, la Montserrat i el Jacint es colen a la llegenda de Sant Jordi
+
+puzzles:
+    easy:
+        title: Fàcil
+    medium:
+        title: Mitjà
+    difficult:
+        title: Difícil
+        puzzle:
+            elements:
+                -
+                    name: Subjectes
+                    items: Sant Jordi, el Drac, la Princesa, els Ciutadans, el Rei, la Montserrat, el Jacint, el Guifré, els Floristes i els Llibreters.
+                -
+                    name: Verbs
+                    items: Pispar, Cuinar, Composar, Prometre, Alliberar, Regalar, Imaginar, Conquerir, Dedicar i Arreplegar
+                -
+                    name: Complement Circumstancial
+                    items: Amb una barretina al cap, Dels estables, Davant de tothom, Com a record, Per la tarda, Per tot arreu, Amb una flamarada, A Montblanc, Perquè ja estava estressat i Amb picardia
+                -
+                    name: Nucli del Complement Directe
+                    items: Castell, Roses vermelles, Quantitats d’espases, Botifarres de pagès, Cançó, Poema d’amor, Cavall, Escates de drac, Petó i Llibre
+                -
+                    name: Atribut del Complement Directe
+                    items: Imponent, Gran, Picant, D'un preciós color blau safir, Patètic, On es menjaven botifarres, On es menjaven bolets, Digne dels jocs florals, Electritzant i Vívid
+                -
+                    name: Nucli del Complement Indirecte
+                    items: Sant Jordi, el Drac, la Princesa, els Ciutadans, el Rei, la Montserrat, el Jacint, el Guifré, els Floristes i els Llibreters.
+                -
+                    name: Complement del Complement Indirecte
+                    items: Que es creia cavaller, Inútil, Simpàtic, Que sempre menjava botifarres, Alegre, Hip-hoper, Que sempre tenia un somriure als llavis, Pesat, Bellugadís i Que era calb
+            clues:
+                - "Les roses vermelles no eren blaves."
+                - "La frase \"Sant Jordi va composar, perquè ja estava estressat, un picant poema d'amor per a la inútil princesa\" té absolutament tot incorrecte. Per exemple: Ni Sant Jordi va fer res amb cap cosa picant, ni Sant Jordi va fer cap cosa per a ningú inútil, ni la princesa era inútil, ni ningú altre va composar res per la princesa, ni cap cosa picant va ser destinada a cap persona inútil, i així amb totes les combinacions."
+                - "Qui va imaginar un petó electritzant era una dona, i es va imaginar besant un home."
+                - "Cap dona va fer res que tingués a veure amb els estables, ni per a gent bellugadissa."
+                - "Entre els quatre homes van fer les següents coses: Un va arreplegar vívides roses vermelles per tot arreu per després repartir-les a tots els ciutadans, un altre va dedicar quelcom per la tarda, un altre va pispar alguna cosa davant de tothom i un altre home va fer un regal d’un preciós color blau safir a les floristes com a record."
+                - "Deien que algú es va fer tant, però tant pesat, que va aconsequir que algú altre li prometés una gran quantitat d’espases. També deien que el Guifré hi estava implicat d’alguna manera: o bé va fer la promesa, o bé va rebre la promesa."
+                - "Ningú va fer cap acció que tingués a sí mateix com a destinatari. Per exemple, qui va cuinar, ho va fer per un altre, no per menjar-ho ell. O qui va fer un regal ho va fer per algú altre, no va ser un auto-regal. I així va passar amb totes les accions."
+                - "Dels personatges individuals, la hiphopera era una noia i la que sempre menjava botifarra era l’altra noia. Dels tres col.lectius de persones, uns eren alegres, els altres eren bellugadissos i els altres sempre tenien un somriure als llavis. Dels homes, un era pesat, l’altre calb, l’altre inútil i l’altre es creia cavaller. I finalment, el drac, no era cap de les anteriors."
+                - "Només podien ser dignes dels Jocs Florals les obres artístiques que es podien escriure amb paraules, com per exemple els llibres, els poemes i les cançons."
+                - "Al llibre, en un capítol, sortia una escena on es menjaven o bé botifarres o bé bolets. Al castell del rei hi havia una sala on es feien banquets on es menjaven o botifarres o bolets. Però no es menjava el mateix a l’escena del llibre que als banquets del castell."
+                - "Els floristes van conquerir amb picardia el castell a l'inútil del rei."
+                - "El que va passar davant de tothom ho va fer el Jacint i tenia a veure amb un llibre on sortia una escena on es menjaven bolets, i tenia també a veure amb la princesa, a qui li agradava sempre menjar botifarres. No obstant aquell dia la princesa no va menjar ni bolets ni botifarra sino que les botifarres de pagès van ser pels llibreters, que sempre tenien un somriure als llavis."
+                - "El patètic poema d’amor del Rei per la Montserrat va ser per la tarda. Tan patètic va ser que la pobra volia fugir corrents de la llegenda i tornar a la vida real encara que fos confinada pel coronavirus."
+                - "O bé el Guifré era alegre o bé ho eren els floristes."
+                - "El cavall es va alliberar de l’estable, per poder-lo donar a qui es creia cavaller, però no ho va fer ni la princesa, ni el drac, ni els floristes, ni els llibreters."
+                - "El drac va cuinar d’una flamarada les picants botifarres."
+                - "Ni els llibreters van fer res per Sant Jordi, ni la princesa va fer res pel drac, ni els ciutadans van fer res pel Guifré."
+                - "O bé la princesa estava ja estressada i per això va acabar prometent un gran nombre d’espases al pesat, o bé la Montserrat estava ja estressada i per això va prometre un gran petó al Calb."
