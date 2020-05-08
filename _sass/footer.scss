@@ -10,5 +10,10 @@ footer
     a
     {
         color: $contrast1;
+
+        &:hover
+        {
+            color: lighten( $contrast1, 20% )
+        }
     }
 }
