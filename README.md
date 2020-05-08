@@ -16,6 +16,26 @@ Tech stack
 * Uses https://jekyllrb.com/ for templating and building. The reason behind is that Github Pages is using that engine.
 * The pages are hosted by GitHub Pages under the custom domain www.coronamaze.org
  
+To help devel
+-------------
+
+You need jekyll.
+
+From your docker host:
+
+    docker run -it --rm -p 4000:4000 -v /your/project/directory:/files --name jekyll --hostname jekyll -u ubuntu jekyll bash
+
+From the inside of the docker (the first time you run the image):
+
+    cd /files
+    bundle install
+    bundle exec jekyll serve --force_polling -H 0.0.0.0 -P 4000
+
+If you don't use the `--rm` tag and re-use a jekyll machine, skip the `bundle install` from the second time on:
+
+    cd /files
+    bundle exec jekyll serve --force_polling -H 0.0.0.0 -P 4000
+ 
  Help needed
  -----------
  
