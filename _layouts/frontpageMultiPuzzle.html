@@ -38,40 +38,59 @@ layout: base
                         <div class="cm_content">
                             <div class="cm_caption">{{ puzzleKey }}. - {{ puzzle.title }}</div>
                             <div>{{ puzzle.note }}</div>
-                            {% if puzzle.showSolutions %}
-                                <div>
-                                    <a href="/{{ page.language }}/1/{{ puzzleKey }}/solutions.html">{{ site.data.translations[ page.language ].showTheSolutions }}</a>
-                                    <p>
-                                        {{ site.data.socialNetworkTranslations[ page.language ].shareCaption }}
+                            {% if puzzle.upcoming %}
+                                <div class="cm_upcoming">
+                                    <div class="cm_upcoming_content">
+                                        <div class="cm_upcoming_title"><b>{{ puzzle.upcomingText1 }}</b></div>
+                                        <div class="cm_upcoming_text">{{ puzzle.upcomingText2 }}</div>
+                                        {% if puzzle.upcomingLink %}
+                                            <div class="cm_upcoming_link"><a href="{{ puzzle.upcomingLink }}" target="_blank">Puzzle aquí</a></div>
+                                        {% endif %}
+                                    </div>
+                                    <div>
+                                        <div>
+                                            {{ site.data.socialNetworkTranslations[ page.language ].followMeCaption }}
+                                        </div>
+                                        {% include socialNetworks/twitterFollowMe.html %}
                                         {% include socialNetworks/twitterShare.html %}
-                                    </p>
+                                    </div>
                                 </div>
                             {% else %}
-                                <div>
+                                {% if puzzle.showSolutions %}
                                     <div>
-                                        {{ site.data.socialNetworkTranslations[ page.language ].followMeCaption }}
+                                        <a href="/{{ page.language }}/1/{{ puzzleKey }}/solutions.html">{{ site.data.translations[ page.language ].showTheSolutions }}</a>
+                                        <p>
+                                            {{ site.data.socialNetworkTranslations[ page.language ].shareCaption }}
+                                            {% include socialNetworks/twitterShare.html %}
+                                        </p>
                                     </div>
-                                    {% include socialNetworks/twitterFollowMe.html %}
-                                    {% include socialNetworks/twitterShare.html %}
+                                {% else %}
+                                    <div>
+                                        <div>
+                                            {{ site.data.socialNetworkTranslations[ page.language ].followMeCaption }}
+                                        </div>
+                                        {% include socialNetworks/twitterFollowMe.html %}
+                                        {% include socialNetworks/twitterShare.html %}
+                                    </div>
+                                {% endif %}
+                                <div class="cm_caption">{{ translations.puzzles.subtitle }}</div>
+                                <div class="cm_age-options">
+                                    {% for option in page.puzzles.options %}
+                                        <div class="cm_age-option">
+                                            <a href="{{ option.link }}" class="btn btn-primary cm_button">{{ option.caption }}&nbsp;&nbsp;&nbsp;&#x25b6;</a>
+                                        </div>
+                                    {% endfor %}
+                                </div>
+                                <div class="cm_age-options">
+                                    {% for option in levelLinks %}
+                                        {% assign optionKey = option[ 0 ] %}
+                                        {% assign optionValue = option[ 1 ] %}
+                                        <div class="cm_age-option">
+                                            <a href="/{{ page.language }}/1/{{ puzzleKey }}/{{ optionValue.page }}" class="btn btn-primary cm_button">{{ localizedLevelLinks[ optionKey ]  }}&nbsp;&nbsp;&nbsp;&#x25b6;</a>
+                                        </div>
+                                    {% endfor %}
                                 </div>
                             {% endif %}
-                            <div class="cm_caption">{{ translations.puzzles.subtitle }}</div>
-                            <div class="cm_age-options">
-                                {% for option in page.puzzles.options %}
-                                    <div class="cm_age-option">
-                                        <a href="{{ option.link }}" class="btn btn-primary cm_button">{{ option.caption }}&nbsp;&nbsp;&nbsp;&#x25b6;</a>
-                                    </div>
-                                {% endfor %}
-                            </div>
-                            <div class="cm_age-options">
-                                {% for option in levelLinks %}
-                                    {% assign optionKey = option[ 0 ] %}
-                                    {% assign optionValue = option[ 1 ] %}
-                                    <div class="cm_age-option">
-                                        <a href="/{{ page.language }}/1/{{ puzzleKey }}/{{ optionValue.page }}" class="btn btn-primary cm_button">{{ localizedLevelLinks[ optionKey ]  }}&nbsp;&nbsp;&nbsp;&#x25b6;</a>
-                                    </div>
-                                {% endfor %}
-                            </div>
                         </div>
                     </section>
                 </div>

@@ -31,7 +31,18 @@ ca:
             showSolutions: true
         3:
             title: Fent màgia abans de la quarentena
-            showSolutions: false
+            showSolutions: true
+        "Especial":
+            title: Entreteniment familiar 🐲 per un 🛡️ Sant Jordi 🌹 confinat
+            upcoming: true
+            upcomingText1: "T'ho vas perdre?!"
+            upcomingText2: "Pròximament els nivells 'fàcil' i 'mitjà'. Data esperada de llançament: diumenge 10 de maig."
+            upcomingLink: "/ca/especial/1/guifre-montserrat-jacint-llegenda-sant-jordi-2020"
+        4:
+            title: La Isona se sent artístico-creativa
+            upcoming: true
+            upcomingText1: "Pròximament!"
+            upcomingText2: "Data esperada de llançament: dimecres 13 de maig."
 
 es:
     translations:
